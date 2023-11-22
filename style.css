@@ -1,9 +1,37 @@
 .cabecalho{background-color: gray;}
 
-nav li{display: inline;}
+nav{position: absolute;
+ top: 110px;
+right: 0;}
+
+nav li{display: inline;
+ margin: 0 0 0 15px;}
 
 nav a{text-transform: uppercase;
-color: black;
-font-weight: bold;
-font-size: 22px;
-text-decoration: none;}
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+     text-decoration: none;}
+
+.caixa{position: relative;
+    width: 940px;
+    margin: 0 auto;}
+
+.produtos{width: 940px;
+margin: 0 auto}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+width: 30px;
+vertical-align: top;}
+
+.produtos h2{
+    font-size: 30px;
+
+    font-weight:bold;}
+
+.decrição{ font-size: 18px;}
+
+.preço{ font-size: 22px;
+       font-weight: bold;}
